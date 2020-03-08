@@ -1,0 +1,21 @@
+[submodule "src/elevation_mapping"]
+	path = src/elevation_mapping
+	url = https://github.com/ganlumomo/elevation_mapping.git
+[submodule "src/grid_map"]
+	path = src/grid_map
+	url = https://github.com/ANYbotics/grid_map.git
+[submodule "src/kindr_ros"]
+	path = src/kindr_ros
+	url = https://github.com/ANYbotics/kindr_ros.git
+[submodule "src/traversability_estimation"]
+	path = src/traversability_estimation
+	url = https://github.com/ganlumomo/traversability_estimation.git
+[submodule "src/any_node"]
+	path = src/any_node
+	url = https://ganlumm@bitbucket.org/leggedrobotics/any_node.git
+[submodule "src/kitti_player_mini"]
+	path = src/kitti_player_mini
+	url = https://github.com/ganlumomo/kitti_player_mini.git
+[submodule "src/traversability_projection"]
+	path = src/traversability_projection
+	url = https://github.com/ganlumomo/traversability_projection.git
