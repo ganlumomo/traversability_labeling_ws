@@ -1,6 +1,5 @@
 # traversability_projection_ws
 
-
 ### Building with catkin
 ```bash
 $ git clone --recursive https://github.com/ganlumomo/traversability_projection_ws.git
