@@ -1,5 +1,12 @@
 # traversability_projection_ws
 
+
+### Building with catkin
+```bash
+$ git clone --recursive https://github.com/ganlumomo/traversability_projection_ws.git
+$ catkin_make -DCMAKE_BUILD_TYPE=Release
+```
+
 ### Running
 ```bash
 $ roslaunch elevation_mapping_demos kitti.launch
