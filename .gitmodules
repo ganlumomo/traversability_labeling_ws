@@ -10,9 +10,6 @@
 [submodule "src/traversability_estimation"]
 	path = src/traversability_estimation
 	url = https://github.com/ganlumomo/traversability_estimation.git
-[submodule "src/any_node"]
-	path = src/any_node
-	url = https://ganlumm@bitbucket.org/leggedrobotics/any_node.git
 [submodule "src/kitti_player_mini"]
 	path = src/kitti_player_mini
 	url = https://github.com/ganlumomo/kitti_player_mini.git
