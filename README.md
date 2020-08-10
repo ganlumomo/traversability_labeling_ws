@@ -3,6 +3,8 @@
 ### Building with catkin
 ```bash
 $ git clone --recursive https://github.com/ganlumomo/traversability_projection_ws.git
+$ cd traversability_projection_ws/src/any_node
+$ rm -rf any_node any_node_example any_worker signal_handler
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
 
