@@ -5,7 +5,7 @@
 $ git clone --recursive https://github.com/ganlumomo/traversability_projection_ws.git
 $ cd traversability_projection_ws/src/any_node
 $ rm -rf any_node any_node_example any_worker signal_handler
-$ cd ../../../
+$ cd ../../
 $ vim src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
 add #include <OgreMeshManager.h> in the header file
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
