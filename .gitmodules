@@ -7,6 +7,9 @@
 [submodule "src/kindr_ros"]
 	path = src/kindr_ros
 	url = https://github.com/ANYbotics/kindr_ros.git
+[submodule "src/any_node"]
+	path = src/any_node
+	url = https://github.com/ANYbotics/any_node.git
 [submodule "src/traversability_estimation"]
 	path = src/traversability_estimation
 	url = https://github.com/ganlumomo/traversability_estimation.git
