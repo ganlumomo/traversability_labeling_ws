@@ -16,6 +16,3 @@
 [submodule "src/traversability_projection"]
 	path = src/traversability_projection
 	url = https://github.com/ganlumomo/traversability_projection.git
-[submodule "src/any_node"]
-	path = src/any_node
-	url = https://github.com/ANYbotics/any_node.git
