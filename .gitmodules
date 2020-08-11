@@ -19,3 +19,6 @@
 [submodule "src/any_node"]
 	path = src/any_node
 	url = https://github.com/ANYbotics/any_node.git
+[submodule "src/tartan_air_player"]
+	path = src/tartan_air_player
+	url = git@github.com:ganlumomo/tartan_air_player.git
