@@ -4,12 +4,13 @@
 ```bash
 $ git clone --recursive git@github.com:ganlumomo/traversability_projection_ws.git
 $ cd traversability_projection_ws/src/any_node
-$ rm -rf any_node any_node_example any_worker signal_handler
+$ rm -rf any_worker any_node any_node_example
 $ cd ../../
-$ vim src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-add #include <OgreMeshManager.h> in the header file
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
+
+### Troubleshooting
+1. **Fatal error**: filters/filter_base.hpp: No such file or directory. **Solution**: For ROS Melodic, substitute each ```<filters/*.hpp>``` in grid_map package with ```<filters/*.h>```. See [https://github.com/ANYbotics/grid_map/issues/292](https://github.com/ANYbotics/grid_map/issues/292).
 
 ### Running
 ```bash
