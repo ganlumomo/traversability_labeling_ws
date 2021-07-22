@@ -7,9 +7,6 @@
 [submodule "src/traversability_estimation"]
 	path = src/traversability_estimation
 	url = https://github.com/ganlumomo/traversability_estimation.git
-[submodule "src/kitti_player_mini"]
-	path = src/kitti_player_mini
-	url = https://github.com/ganlumomo/kitti_player_mini.git
 [submodule "src/traversability_projection"]
 	path = src/traversability_projection
 	url = https://github.com/ganlumomo/traversability_projection.git
@@ -19,6 +16,6 @@
 [submodule "src/any_node"]
 	path = src/any_node
 	url = https://github.com/ANYbotics/any_node.git
-[submodule "src/tartan_air_player"]
-	path = src/tartan_air_player
-	url = git@github.com:ganlumomo/tartan_air_player.git
+[submodule "src/dataset_ros_player"]
+	path = src/dataset_ros_player
+	url = https://github.com/ganlumomo/dataset_ros_player.git
