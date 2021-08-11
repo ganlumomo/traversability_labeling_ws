@@ -17,5 +17,13 @@ $ catkin_make -DCMAKE_BUILD_TYPE=Release
 $ roslaunch elevation_mapping_demos kitti.launch
 $ roslaunch traversability_estimation kitti.launch
 $ rosrun traversability_projection traversability_projection_node
-$ rosrun kitti_player_mini kitti_player_mini_node
+$ rosrun dataset_ros_player kitti_player_mini_node
+```
+
+### Running for MiniCheetah
+```bashg
+$ roslaunch dataset_ros_player mini_cheetah.launch
+$ roslaunch elevation_mapping_demos mini_cheetah.launch
+$ roslaunch traversability_estimation mini_cheetah.launch
+$ rosrun traversability_projection traversability_projection_node
 ```
