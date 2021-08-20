@@ -1,9 +1,6 @@
 [submodule "src/elevation_mapping"]
 	path = src/elevation_mapping
 	url = https://github.com/ganlumomo/elevation_mapping.git
-[submodule "src/grid_map"]
-	path = src/grid_map
-	url = https://github.com/ANYbotics/grid_map.git
 [submodule "src/traversability_estimation"]
 	path = src/traversability_estimation
 	url = https://github.com/ganlumomo/traversability_estimation.git
@@ -19,3 +16,6 @@
 [submodule "src/dataset_ros_player"]
 	path = src/dataset_ros_player
 	url = https://github.com/ganlumomo/dataset_ros_player.git
+[submodule "src/grid_map"]
+	path = src/grid_map
+	url = https://github.com/ganlumomo/grid_map.git
