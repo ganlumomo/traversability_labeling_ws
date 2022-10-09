@@ -3,7 +3,7 @@
 ### Building with catkin
 ```bash
 $ git clone --recursive git@github.com:ganlumomo/traversability_labeling_ws.git
-$ cd traversability_projection_ws/src/any_node
+$ cd traversability_labeling_ws/src/any_node
 $ rm -rf any_worker any_node any_node_example
 $ cd ../../
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
